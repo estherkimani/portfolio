@@ -13,3 +13,6 @@
   list-style: none;
   display: flex;
 }
+.bar ul li a{
+  text-decoration: none;
+}
