@@ -16,9 +16,15 @@
 .bar ul li a{
   text-decoration: none;
   padding: 5px 20px;
+  color: white;
 }
 /*home*/
 #HomeSection{
   display: flex;
   flex-direction: column;
+  height: 550px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e85fb8;
+
 }
