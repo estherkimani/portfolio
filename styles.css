@@ -22,9 +22,30 @@
 #HomeSection{
   display: flex;
   flex-direction: column;
-  height: 550px;
+  height: 650px;
   align-items: center;
   justify-content: center;
   background-color: #e85fb8;
 
+}
+.heading{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+#Portfolio{
+  display: flex;
+  flex-direction: column;
+}
+img{
+  width: 350px;
+  height: 640%;
+}
+.images{
+  display: flex;
+}
+#Education{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000dc;
 }
