@@ -49,3 +49,20 @@ img{
   flex-direction: column;
   background-color: #000000dc;
 }
+#Education h1{
+  margin: 30px;
+}
+.columns {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+.grd{
+  height:200px;
+  width:400px;
+  margin: 10px;
+  padding: 5px;
+}
+.grd p{
+  color: white;
+  font-size: 18px;
+}
