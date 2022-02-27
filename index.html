@@ -8,16 +8,16 @@
     <nav class="bar">
       <!--  <img src="images/logo.jpg" alt="Logo of the name Esther" class="logo"-->
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="#HomeSection">Home</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#About">About Me</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </nav>
     <section id="HomeSection">
-      <h1 class= "heading">Hi! My name is</h1>
-      <h1 class= "heading">Esther Wanjiru Kimani</h1>
+      <h1 class= "heading">Hi! My name is</h1><br>
+      <h1 class= "heading">Esther Wanjiru Kimani</h1><br>
       <p class="heading">and this is a short description of who I am. Feel free to reach out.</p>
 
     </section>
@@ -39,35 +39,50 @@
           </div>
           <div class="grd">
             <h1>Bachelor's Degree</h1>
-            <p>I graduated with a Bachelor's Degree in Mathematics and Computer Science from university of
+            <p>I graduated with a <strong>Bachelor's Degree in Mathematics and Computer Science</strong> from university of
             Eldoret in 2019. Some of the skills I learnt include SQL, machine logic and networking.</p>
           </div>
 
           <div class="grd">
             <h1>Secondary School</h1>
-            <p>I scored an A- of 76 points from Othaya Girls High Schoolhaving taken the three sciences. My best performed subjects
+            <p>I scored an <strong>A- of 76 points</strong>from Othaya Girls High Schoolhaving taken the three sciences. My best performed subjects
               were Mathematics and Physics.</p>
           </div>
           <div class="grd">
             <h1>Primary School</h1>
-            <p>I schooled at Fairlawns Primary School and scored 397 marks in my KCPE examinations.</p>
+            <p>I schooled at Fairlawns Primary School and scored <strong>397 marks</strong> in my KCPE examinations.</p>
           </div>
         </div>
 
     </section>
     <section id="About">
       <h2 class = "head">About Me</h2>
-      <p>I am a very social person who can spark a conversation in any crowd. I thrive in teamwork as
+      <p>I am a very social person who can spark a conversation in any crowd. My personality helps me
+        adapt to different environments with ease. I am hardworking and work efficiently even under pressure
+        with minimum supervision. I exercise my leadership skills any time need arises.I thrive in teamwork as
       well as focused groups. I have a number of hobbies which include:</p>
-      <ul>
+      <ol>
         <li>Swimming</li>
         <li>Taking nature walks</li>
         <li>Hiking</li>
         <li>Reading</li>
         <li>Listening to music</li>
-      </ul>
+      </ol>
 
     </section>
+    <section id= "contact">
+      <h2 class = "hd">Contact Me</h2>
+      <form class="reachme" action="index.html" method="post">
+        <input type="text" name="name" class="input" placeholder="Enter your name" >
+        <input type="email" name="email" class="input" placeholder="Enter your email">
+        <textarea name="message" id="message" rows="20" cols="30" placeholder="Enter your message"></textarea>
+        <input type="submit" name="submit" id="submit">
+
+      </form>
+
+
+    </section>
+
 
 
 
