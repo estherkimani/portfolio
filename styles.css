@@ -15,4 +15,10 @@
 }
 .bar ul li a{
   text-decoration: none;
+  padding: 5px 20px;
+}
+/*home*/
+#HomeSection{
+  display: flex;
+  flex-direction: column;
 }
