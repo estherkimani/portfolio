@@ -24,7 +24,7 @@
   flex-direction: column;
   height: 650px;
   align-items: center;
-  justify-content: center;
+  justify-content: center; /*moves the text to the center of the section*/
   background-color: #e85fb8;
 
 }
@@ -69,8 +69,16 @@ img{
 #About{
   display: flex;
   flex-direction: column;
-  height: 300px;
-  margin: 20px;
+  /*height: 300px;
+  margin: 20px;*/
+  text-align: center;
+  background: url(assets/elephant.jpg);
+  background-image: 100%;
+  background-image: no-repeat;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 #About h2{
   text-align: center;
@@ -95,4 +103,11 @@ img{
   margin:10px;
   width: 40%;
   border-radius: 25px;
+}
+#photo{
+  background-image: image();
+  position: relative;
+  color: #CCCCCC;
+  object-fit: contain;
+
 }
